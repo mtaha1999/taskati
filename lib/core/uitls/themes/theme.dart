@@ -7,7 +7,7 @@ class AppTheme {
     colorScheme: ColorScheme.fromSwatch().copyWith(
         secondary: AppColors.colorPrimary, onSurface: AppColors.blackColor),
     scaffoldBackgroundColor: AppColors.whiteColor,
-    appBarTheme: AppBarTheme(
+    appBarTheme: const AppBarTheme(
       centerTitle: true,
       titleTextStyle: TextStyle(
           fontFamily: 'poppins',
@@ -17,7 +17,7 @@ class AppTheme {
       backgroundColor: AppColors.whiteColor,
     ),
     inputDecorationTheme: InputDecorationTheme(
-      hintStyle: TextStyle(
+      hintStyle: const TextStyle(
           fontFamily: 'poppins',
           fontSize: 12,
           fontWeight: FontWeight.bold,

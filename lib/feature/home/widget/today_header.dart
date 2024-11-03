@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:taskati/core/funcaion/naviator.dart';
 
-import 'package:taskati/core/uitls/color.dart';
 import 'package:taskati/core/uitls/text_styal.dart';
 
 import 'package:taskati/core/widgets/custom_button.dart';

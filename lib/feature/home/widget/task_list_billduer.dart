@@ -73,18 +73,18 @@ class _TaskListBillduerState extends State<TaskListBillduer> {
                           itemCount: tasklist.length,
                           itemBuilder: (context, index) {
                             // Initial opacity is set to 0 and will animate to 1
-                            double _opacity = 0.0;
+                            double opacity = 0.0;
 
                             // Introduce a delay to see the animation effect clearly
                             Future.delayed(Duration(milliseconds: 100 * index),
                                 () {
                               setState(() {
-                                _opacity = 1.0;
+                                opacity = 1.0;
                               });
                             });
 
                             return AnimatedOpacity(
-                              opacity: _opacity,
+                              opacity: opacity,
                               duration: const Duration(
                                   seconds: 1), // Duration of the fade effect
                               child: Dismissible(
